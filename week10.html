@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible"
+    content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles-bootstrap.css">
+
+
+  </head>
+
+  <body>
+
+<nav class="navbar sticky-top">
+  <a class="nav-link" href="index.html">Home</a>
+  <a class="nav-link" href="week2.html">Week 2</a>
+  <a class="nav-link" href="week3.html">Week 3</a>
+  <a class="nav-link" href="week4.html">Week 4</a>
+  <a class="nav-link" href="week5.html">Week 5</a>
+  <a class="nav-link" href="week6.html">Week 6</a>
+  <a class="nav-link" href="week7.html">Week 7</a>
+  <a class="nav-link" href="week8.html">Week 8</a>
+  <a class="nav-link" href="week9.html">Week 9</a>
+  <a class="nav-link active" href="week10.html">Week 10</a>
+  <a class="nav-link" href="week11.html">Week 11</a>
+</nav>
+
+
+<div class="container-fluid" id="w10content-1">
+  <div class="row"
+    <div class="col-sm-12 col-md-4 col align-self-start">
+      <!--<div id="yaroslav-head-w10"><img src="assets/Yaroslavhead-01.png"></div>-->
+    </div>
+    <div class="col-sm-12 col-md-4 col align-self-center">
+      <div id="gonna-be-big"><img src="assets/going-be-big.svg"></div>
+    </div>
+    <div class="col-sm-12 col-md-4 col align-self-end">
+      <!--<div id="drumsw10"><img src="assets/YaroslavKit2-01.png"></div>-->
+  </div>
+    <div class="row">
+      <div class="col-sm-12 col-md-4">
+        <!--<div id="lady"><img src="assets/ladyhead-01.png"></div>-->
+    </div>
+      <div class="col-sm-12 col-md-4">
+
+        <div class="audio-player-cont">
+          <div class="logo">
+            <img src="assets/FrenchFriesWeFunkLogo.png">
+          </div>
+
+          <div class="player">
+            <div id="songTitle" class="song-title">Song title here</div>
+
+            <input id="songSlider" class="song-slider" type="range" min="0" step="1" onchange="seekSong()"></input>
+            <div>
+              <div id="currentTime" class="current-time">00:00</div>
+              <div id="duration" class="duration">00:00</div>
+            </div>
+              <div class="controllers">
+                <img src="assets/back.svg" width=30px onclick="previous();">
+                <img src="assets/pause.svg" width=40px onclick="playOrPauseSong(this);">
+                <img src="assets/forward.svg" width=30px onclick="next();">
+                <input id="volumeSlider" class="volume-slider" type="range" min="0" max="1" step="0.01" onchange="adjustVolume()">
+              </div>
+
+              <div id="nextSong" class="song-title"><b>NEXT SONG:</b>Next song title here...</div>
+
+            </div>
+
+          </div>
+          <br></br>
+        <h5><mark>Week 10</mark></h5>
+        <p> This week I've managed to create a basic music player with JavaScript (following a tutorial on YouTube), it was one of the only vanilla JS examples I could find. Anyway, this means that
+          with a few tweaks that I can build the music player into the album view. Hopefully I can get the pinch-zoom feature sorted out in the next week or so, which will keep me on schedule with my sprint plan.</P>
+
+          <h6><mark>Research etc</mark></h6>
+          <p>According to Sergey Volokhin and Eugene Agichtein in their paper 'Understanding Music Listening Intents During Daily Activities with Implications for Contextual Music Recommendation'
+          96% of internet users consume licensed music, primarily via smartphones. They go on to state that most consumers discover new music via recommendations from streaming services such as
+        Spotify and YouTube. Whilst I'm not against streaming services (I've benefitted from their recommendations in the past) I feel that these services (especially via smartphones) have spoiled
+      the pastime of listening to music, particularly the album. It seems the convenience of streaming comes at the expense of a quality audio and visual experience. Remember buying an album on CD
+    or vinyl and getting home to listen to it whilst poring over the sleeve notes and accompanying artwork? </p>
+      </div>
+      <div class="col-sm-12 col-md-4">
+        <div id="bluecirclew10"><img src="assets/BlueCircle-01.png"></div>
+        <div id="coats"><img src="assets/Overcoats-01.png"></div>
+
+      </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+<script src="musicplayer.js"></script>
+</body>
+</html>

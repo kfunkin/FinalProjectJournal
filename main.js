@@ -1,3 +1,4 @@
+
 anime({
   targets: 'div.maratshead',
   translateY: [
@@ -54,3 +55,28 @@ anime({
 })
 
 document.getElementById('#crash-leading').style.line.height = "1.6em";
+
+
+
+/*
+let menuBtn = document.querySelector('#menuBtnIcon');
+let menu = document.querySelector('#box');
+let menuStatus = false;
+
+menu.style.marginLeft = '-310px';
+
+//could set the -310px margin in CSS as well
+
+function menuToggle() {
+  if (menuStatus == false) {
+    menu.style.marginLeft = '-20px';
+    menu.style.transition = '3s';
+    menuStatus = true;
+
+  } else if (menuStatus == true) {
+    menu.style.marginLeft = '-310px';
+    menuStatus = false;
+  }
+}
+
+menuBtn.onclick = menuToggle;*/

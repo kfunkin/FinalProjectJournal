@@ -596,3 +596,330 @@ full width column*/
   top: 1200px;
   height: 600px;
 }
+
+/*week 12 animation*/
+
+/*container 12*/
+#containerw12-1 {
+  position: relative;
+  top: 100px;
+  height: 720px;
+  animation: containerw12-zoom 6s;
+  animation-delay: 1s;
+}
+
+@keyframes containerw12-zoom {
+  0% {
+
+  }
+  20% {
+
+  }
+  40% {
+    transform:scale3d(2, 2, 2) translate3d(0px, 200px, 0px);
+    /*animation-timing-function: ease-in;*/
+  }
+  100% {
+    transform: scale3d(1, 1, 1) /*translate3d(-170px, -100px, 0px)*/;
+    /*animation-timing-function:ease-out;*/
+  }
+}
+
+#prompt-w12 {
+  position:absolute;
+  top: 10px;
+  left:150px;
+  opacity: 0;
+  animation: prompt-anim 4s;
+  animation-delay: 2s;
+
+}
+
+@keyframes prompt-anim {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+#marathead-12 {
+  position: absolute;
+  top: 50px;
+  left:150px;
+  right:auto;
+  z-index: 10;
+  mix-blend-mode: darken;
+  /*animation: marathead-12-anim 2s linear infinite;*/
+}
+@keyframes marathead-12-anim {
+  0% {
+    top: 50px;
+    left: 152px;
+  }
+  50% {
+    top: 60px;
+    left: 150px;
+  }
+  100% {
+    top: 55px;
+    left: 149px;
+  }
+}
+
+
+#maratbody-12 {
+  position: absolute;
+  top: 200px;
+  right:auto;
+  mix-blend-mode: darken;
+}
+
+@keyframes maratbody-12-anim {
+  0% {
+    top: 200px;
+
+  }
+  50% {
+    top: 202px;
+
+  }
+  100% {
+    top: 201px;
+
+  }
+}
+
+#pinkcircle-12 {
+  mix-blend-mode: darken;
+  opacity: 0.5;
+  /*animation: pinkcircle-12-anim 1s linear infinite;*/
+}
+
+@keyframes pinkcircle-12-anim {
+  0% {
+    opacity: 0.0;
+  }
+  100% {
+    opacity: 1;
+  }
+
+}
+
+#i-agree-12 {
+  position: absolute;
+  top: 240px;
+  left: 0px;
+  mix-blend-mode: overlay;
+  transform: scale(1);
+  z-index: 10;
+}
+@keyframes i-agree-12-anim {
+  0% {
+    top: 240px;
+    left:10px;
+    mix-blend-mode: lighten;
+    transform: scale(1.5);
+
+  }
+  50% {
+    top: 242px;
+    left:8px;
+    mix-blend-mode: color-burn;
+    transform: scale(1.5);
+
+  }
+  100% {
+    top: 242px;
+    left:8px;
+    mix-blend-mode: color-dodge;
+    transform: scale(1.1);
+
+  }
+}
+
+#big-12 {
+  position: absolute;
+  top: 0px;
+  left: -200px;
+  mix-blend-mode: darken;
+  opacity: 1;
+  z-index: 3;
+}
+@keyframes big-12-anim {
+  0% {
+    top: 0px;
+    left:-200px;
+    mix-blend-mode: color-burn;
+    transform:scale(0.5);
+
+  }
+  50% {
+    top: 3px;
+    left:-200px;
+    mix-blend-mode: color-burn;
+    transform:scale(0.6);
+  }
+  100% {
+    top: 0px;
+    left:-200px;
+    mix-blend-mode: color-dodge;
+    transform:scale(0.4);
+  }
+}
+
+#keys-12 {
+  position: absolute;
+  top: 50px;
+  left: -250px;
+  mix-blend-mode: darken;
+  z-index: 10;
+  transform:scale(0.5);
+}
+
+@keyframes keys-12-anim {
+  0% {
+    top: 55px;
+    left:-252px;
+    mix-blend-mode: darken;
+  }
+  50% {
+    top: 52px;
+    left:-250px;
+    mix-blend-mode: overlay;
+  }
+  100% {
+    top: 55px;
+    left:-250px;
+    mix-blend-mode: color-dodge;
+  }
+}
+
+
+#yar-head-12 {
+  position: absolute;
+  top: -130px;
+  left: 173px;
+  mix-blend-mode: darken;
+  z-index: 10;
+}
+@keyframes yar-head-12-anim {
+  0% {
+    top: -130px;
+    left: 173px;
+    mix-blend-mode: darken;
+  }
+  50% {
+    top: -125px;
+    left:174px;
+    mix-blend-mode: overlay;
+  }
+  100% {
+    top: -127px;
+    left:173px;
+    mix-blend-mode: color-dodge;
+  }
+}
+#yar-body-12 {
+  position: absolute;
+  top: 50px;
+  left: 110px;
+  mix-blend-mode: darken;
+  z-index: 10;
+}
+
+#playButton12 {
+  position:absolute;
+  top: 0px;
+  left: 100px;
+  mix-blend-mode: darken;
+}
+#reel1-12 {
+  position: absolute;
+  top: 93px;
+  left: 135px;
+  z-index: 2;
+}
+
+#reel2-12 {
+  position: absolute;
+  top: 97px;
+  left: 181px;
+  z-index: 2;
+}
+@keyframes spin-12 { 100% {-webkit-transform: rotate(360deg);
+transform:rotate(360deg);}}
+
+#stripes-12 {
+  position: absolute;
+  top: 0px
+  left: 350px;
+  mix-blend-mode: darken;
+  z-index: -1;
+}
+#containerw12-2 {
+  position: relative;
+  top: 50px;
+  height: 720px;
+  background-color: #000000;
+}
+#tour-poster-pic {
+  position: absolute;
+  transform:scale(0.8);
+}
+#glitch-w12 {
+  position:relative;
+  mix-blend-mode: overlay;
+  /*transform: scale(1.5);*/
+  opacity: 0.5;
+  z-index: 5;
+}
+
+#logo-w12 {
+  position: relative;
+  top: 50px;
+  left: 100px;
+  z-index: 5;
+}
+
+#glitch-w12-2 {
+  position:absolute;
+  top: 50px;
+  left: 100px;
+  opacity: 0.5;
+  z-index: 6;
+  mix-blend-mode: overlay;
+  transition-timing-function: cubic-bezier(0.4,0,0.6,0);
+  animation: glitch-w12-2-anim 1s linear infinite;
+}
+
+@keyframes glitch-w12-2-anim {
+  0% {
+    mix-blend-mode: multiply;
+    left: 101px;
+  }
+  20% {
+    mix-blend-mode: color-burn;
+    left: 100px;
+  }
+  40% {
+    mix-blend-mode: color-burn;
+    left: 99px;
+  }
+  60% {
+    mix-blend-mode:overlay;
+    left: 100px;
+  }
+  80% {
+    mix-blend-mode: hue;
+    left: 99px;
+  }
+  100% {
+    mix-blend-mode: color-dodge;
+    left: 100px;
+  }
+}

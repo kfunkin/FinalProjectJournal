@@ -923,3 +923,26 @@ transform:rotate(360deg);}}
     left: 100px;
   }
 }
+/*week 13*/
+
+#containerw13-1 {
+  position: relative;
+  top: 100px;
+  height: 720px;
+}
+
+#meatandgravy {
+  position: absolute;
+  left: -20px;
+}
+
+#funkcomrades {
+  position: absolute;
+  left: -20px;
+  top: 1000px;
+}
+#barfly {
+  position: absolute;
+  left: -20px;
+  top: 200px;
+}
